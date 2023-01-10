@@ -30,7 +30,4 @@ https://gitee.com/pegasuswiki/vimrc/tree/master
     ```
 
 # Thanks
-# Thanks
-# Thanks
-# Thanks
-# Thanks
+
