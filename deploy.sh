@@ -10,7 +10,7 @@ echo "Total: $#"
 
 
 function ensure_no_cli_args() {
-    if [ $# -ne 0 ]
+    if [[ $# -ne 0 ]]
     then
         echo "No command line arguments accepted!" >&2
         exit 1

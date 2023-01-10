@@ -24,7 +24,7 @@ https://github.com/alexook/vimrc.git
 ### Uninstall
 
     ```
-    git clone https://gitee.com/pegasuswiki/vimrc.git
+    git clone https://github.com/alexook/vimrc.git
     cd vimrc
     make clean
     ```
