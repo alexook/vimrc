@@ -29,7 +29,8 @@ let mapleader=" "
 
 map ; :
 map q; q:
-map Q :q!<CR>
+map Q :q<CR>
+map <leader>Q :q!<CR>
 map S :w<CR>
 
 noremap H 0
