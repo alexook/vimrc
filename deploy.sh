@@ -9,9 +9,8 @@ echo "All parameters 2: $*"
 echo "Total: $#"
 
 USER_NAME=$(getent passwd `who` | head -n 1 | cut -d : -f 1)
-USER_HOME="/home/$(getent passwd `who` | head -n 1 | cut -d : -f 1)"
 
-echo "${USER_HOME}"
+
 echo "${USER_NAME}"
 
 function ensure_no_cli_args() {
@@ -37,7 +36,7 @@ function deploy_config() {
 		echo "${action} "
     done
  
-	cp ./vimconfig.txt ${USER_HOME}/.vimrc
+	cp ./vimconfig.txt ${HOME}/.vimrc
 }
 
 
