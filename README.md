@@ -2,7 +2,7 @@
 
 ### Install build version
 
-https://gitee.com/pegasuswiki/vimrc/tree/master
+https://github.com/alexook/vimrc.git
 
 ### Manual Install
 
@@ -15,7 +15,7 @@ https://gitee.com/pegasuswiki/vimrc/tree/master
 2. Run the following commands as normal user:
 
     ```
-    git clone https://gitee.com/pegasuswiki/vimrc.git
+    git clone https://github.com/alexook/vimrc.git
     cd vimrc
     make
     ```
