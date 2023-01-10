@@ -7,7 +7,7 @@ HOME_PATH = $(HOME)
 
 build:
 	@echo "hello Makefile build"
-	@bash deploy.sh
+	@bash deploy.sh hello
 
 
 clean:
