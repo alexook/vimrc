@@ -28,3 +28,5 @@ https://gitee.com/pegasuswiki/vimrc/tree/master
     cd vimrc
     make clean
     ```
+
+# Thanks
