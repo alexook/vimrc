@@ -43,7 +43,8 @@ noremap J 5j
 noremap K 5k
 
 noremap s <nop>
-
+vnoremap <C-y> "+y
+nnoremap <C-p> "*p
 
 
 map <LEADER>w :vsp<CR>
