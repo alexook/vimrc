@@ -18,7 +18,7 @@ set noerrorbells
 set encoding=utf-8
 "set fileformat=unix
 
-"set mouse=a
+set mouse=a
 
 set scrolloff=8
 
