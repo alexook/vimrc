@@ -38,6 +38,7 @@ function deploy_config() {
 
 ensure_no_cli_args
 #ensure_root_permissions
-deploy_config
+bash ./setup_vim.sh
+bash ./setup_fish.sh
 
 echo "Successfully"
